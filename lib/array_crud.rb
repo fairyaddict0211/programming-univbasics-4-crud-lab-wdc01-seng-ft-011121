@@ -7,7 +7,7 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  grocey_list << 
+  grocey_list .push("juice")
 end
 
 def add_element_to_start_of_array(array, element)
