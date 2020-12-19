@@ -3,12 +3,12 @@ def create_an_empty_array
 end
 
 def create_an_array
-  grocery_list = ["eggs", "bacon", "cheese", "bread"]
+ array = ["wow", "I", "am", "really"]
 end
 
 def add_element_to_end_of_array(array, element)
- grocery_list << "water"
- p grocery_list
+p array
+array << "learning"
 end
 
 def add_element_to_start_of_array(array, element)
